@@ -1,0 +1,26 @@
+{% extends 'flatpages/default.html' %}
+{% load static %}
+
+{% block idpage %}home{% endblock %}
+
+{% block title %}
+Главная
+{% endblock %}
+
+{% block header %}
+Вас приветствует компания - Skillfactory.
+{% endblock %}
+
+{% block count %}
+<br>
+{% endblock %}
+
+{% block image %}
+{% static 'assets/home.jpg' %}
+{% endblock %}
+
+{% block content %}
+<p class="fs-5 mb-4">Для просмотра новостей перейдите к пункту меню  <a class="content-link" href="/news/">Новости</a>.</p>
+<p class="fs-5 mb-4">Школа SkillFactory (Скиллфактори) начала свою работу в 2016 году и с того времени разработала и запустила 25 курсов и специализаций в области аналитики и веб-разработки. Резидент Сколково. Лидер на рынке онлайн-образования в сегменте Data Science. По версии РБК, проект входит в топ-35 крупнейших EdTech-компаний России</p>
+
+{% endblock %}
